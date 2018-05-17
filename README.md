@@ -26,7 +26,7 @@ Using this program is easier than copying and pasting each of the letters in the
 - Type in the main word and press enter
 - The result will be copied to your clipboard.
 
-Here is an example of problematic output
+Here is an example of useful (successful output
 ```
 input:
 > dream
@@ -50,5 +50,11 @@ output:
 ```
 
 This output is due to how only certain letters can be superfixed. The superfixed word is also shorter than the main word so not all letters will be copied.
+
+# Mini-Postmortem
+
+This was a super quick project because I needed to make a small tool to do one simple thing while also teaching others a little bit about my work.
+
+I'm glad I got a bit of extra functionality out of it (output is copied directly to the clipboard) and it's something that is easy enough to referrence. It's also the first time I've used UTF-8 encoding in a C++ project which ended up being strange but easier than I thought it would be.
 
 Don't use this if you're evil.
